@@ -1,5 +1,5 @@
 # emptyJUCEProject
-emptyJuceProject for vscode on linux
+empty JUCE Project for vscode on linux as IDE
 
 ## clone to JUCE project folder
 ```
