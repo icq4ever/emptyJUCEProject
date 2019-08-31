@@ -1,11 +1,16 @@
 # emptyJUCEProject
 empty JUCE Project for vscode on linux as IDE
 
+## reference
+[reddit :: How to run JUCE project on Linux](https://www.reddit.com/r/JUCE/comments/bbrjsb/how_to_run_juce_project_on_linux/)
+
 ## clone to JUCE project folder
 ```
 $ cd ~/JUCE/
 $ git clone https://github.com/icq4ever/emptyJUCEProject
 ```
+## update your JUCE path
+edit [line 16, 17](https://github.com/icq4ever/emptyJUCEProject/blob/9414db81689b905e93164bed5c3b8acdac1aee9a/.vscode/c_cpp_properties.json#L16) your JUCE PATH
 
 ## add to `.bashrc` or `.zshrc`
 ```
