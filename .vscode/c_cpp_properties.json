@@ -9,7 +9,6 @@
 				"/usr/include/c++/9.1.0/backward",
 				"/usr/lib/gcc/x86_64-linux-gnu/9.1.0/include",
 				"/usr/lib/glib-2.0/include",
-				"/usr/include/gstreamer-1.0",
 				"/usr/local/include",
 				"/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed",
 				"${workspaceFolder}/**",
