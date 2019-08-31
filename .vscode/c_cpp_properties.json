@@ -1,38 +1,38 @@
 {
-    "configurations": [
-        {
-            "name": "Linux",
-            "includePath": [
-                "/usr/include",
-                "/usr/local/include",
-                "/usr/include/c++/9.1.0",
-                "/usr/include/c++/9.1.0/backward",
-                "/usr/lib/gcc/x86_64-linux-gnu/9.1.0/include",
-                "/usr/lib/glib-2.0/include",
-                "/usr/include/gstreamer-1.0",
-                "/usr/local/include",
-                "/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed",
+	"configurations": [
+		{
+			"name": "Linux",
+			"includePath": [
+				"/usr/include",
+				"/usr/local/include",
+				"/usr/include/c++/9.1.0",
+				"/usr/include/c++/9.1.0/backward",
+				"/usr/lib/gcc/x86_64-linux-gnu/9.1.0/include",
+				"/usr/lib/glib-2.0/include",
+				"/usr/include/gstreamer-1.0",
+				"/usr/local/include",
+				"/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/include-fixed",
 				"${workspaceFolder}/**",
 				"/opt/JUCE/",
 				"/opt/JUCE/modules/"
-            ],
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": "",
-                "path": [
-                    "/usr/include",
-                    "/usr/local/include",
-                    "${workspaceRoot}/../../../libs",
-                    "${workspaceRoot}/../../../addons",
-                    "${workspaceRoot}/../../../libs/openFrameworks"
-                    
-                ]
-            },
-            "intelliSenseMode": "clang-x64",
-            "compilerPath": "/usr/bin/gcc-8",
-            "cStandard": "c11",
-            "cppStandard": "c++17"
-        }
-    ],
-    "version": 4
+			],
+			"browse": {
+				"limitSymbolsToIncludedHeaders": true,
+				"databaseFilename": "",
+				"path": [
+					"/usr/include",
+					"/usr/local/include",
+					"${workspaceFolder}/**",
+					"/opt/JUCE/",
+					"/opt/JUCE/modules/"
+					
+				]
+			},
+			"intelliSenseMode": "clang-x64",
+			"compilerPath": "/usr/bin/gcc-8",
+			"cStandard": "c11",
+			"cppStandard": "c++17"
+		}
+	],
+	"version": 4
 }
