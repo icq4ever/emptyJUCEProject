@@ -36,7 +36,8 @@
                     }
                 ],
                 "program": "${workspaceRoot}/bin/${workspaceFolderBasename}_debug"
-            }
+            },
+            "preLaunchTask": "Build"
         },
         {
             "name": "C++ Attach",
